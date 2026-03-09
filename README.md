@@ -218,13 +218,6 @@ mkdir -p ~/.claude/skills/codexloop
 cp skills/codexloop/SKILL.md ~/.claude/skills/codexloop/SKILL.md
 ```
 
-## 개발
-
-이 프로젝트를 이어서 개발할 때:
-
-- `AGENTS.md`: 프로젝트 범위, 가드레일, 개발 규칙
-- `DEVELOPMENT.md`: 제품 배경, 불변 조건, 로드맵
-
 ## 참고
 
 - 기본 샌드박스 모드는 Codex CLI의 `--full-auto`다. 이는 로컬 help 기준으로 `-a on-request`, `--sandbox workspace-write` 조합의 convenience alias이며, README에서는 이를 임의로 `auto-approve`라고 부르지 않는다.
